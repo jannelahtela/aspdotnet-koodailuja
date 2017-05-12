@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="Tutorial.Site1" %>
+
+<!DOCTYPE html>
+<html lang="en" class="wide smoothscroll wow-animation">
+<head>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<!-- The Main Wrapper -->
+<div class="page text-center">
+
+
+
+    <asp:ContentPlaceHolder ID="MainContent1" runat="server">
+        
+        
+    </asp:ContentPlaceHolder>
+</div>
+
+
+</body>
+</html>
